@@ -9,7 +9,7 @@ import SwiftUI
 import SpriteKit
 
 class SpriteHelper{
-// update
+// update for V1
     static func addNode(name:String,width:Double,height:Double,x:CGFloat,y:CGFloat,scene:SKScene?,zPosition:Int = 0, onComplete:@escaping (SKSpriteNode)->Void){
         let node = SKSpriteNode(imageNamed: name)
         node.size = CGSize(width: width, height: height)
